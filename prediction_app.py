@@ -37,9 +37,6 @@ model = VGG16(weights='imagenet')
 # Display the model architecture
 model.summary()
 
-pip install opencv-python
-
-pip install streamlit
 
 import os
 import numpy as np
