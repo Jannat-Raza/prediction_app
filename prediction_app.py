@@ -1,4 +1,11 @@
-
+import os
+import numpy as np
+import cv2
+import streamlit as st
+from sklearn.metrics.pairwise import cosine_similarity
+from tensorflow.keras.applications.vgg16 import VGG16, preprocess_input
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import Model
 
 # Load the VGG16 model
 base_model = VGG16(weights='imagenet')
