@@ -12,7 +12,7 @@ import requests
 import os
 
 # Load the CSV
-df = pd.read_csv("/content/Data ID - Sheet1.csv")
+df = pd.read_csv("Data ID - Sheet1.csv")
 
 # Create a directory to save the extracted images
 output_dir = "downloaded_images"
