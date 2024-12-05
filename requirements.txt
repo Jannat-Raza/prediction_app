@@ -6,3 +6,4 @@ Pillow
 scikit-learn
 streamlit
 cv2
+opencv-python 
